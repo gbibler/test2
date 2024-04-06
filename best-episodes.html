@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="./index.html" class="logo"><em>Friends</em></a>
+      <a class="headerlink" href="./characters.html">Characters</a>
+      <a class="headerlink" href="./best-episodes.html">Best Episodes</a>
+      <a class="headerlink" href="./awards.html">Awards</a>
+    </nav>
+  </header>
+  <main>
+    <section class="hero">
+      <p class="call-to-action">Welcome to the site all about the show Friends</p>
+      <a href="./characters.html" class="hero_button">Meet the Characters</a>
+    </section>
+    <section class="container">
+      <article class="container__article">
+        <h1>Best Episodes</h1>
+        <h2>The One with the Jellyfish</h2>
+        <p>A tranquil beach weekend turns tumultuous when Monica falls victim to a jellyfish sting and Ross resolves to end his new relationship to reunite with Rachel. However, Ross's lengthy 18-page letter (yes, front and back!) resurfaces lingering emotions, leading to a rollercoaster few days for the rekindled duo, culminating in yet another heated argument. Can anyone say, "Were we on a break?"</p>
+        <h2>The One with Unagi</h2>
+        <p>In this episode, Ross attempts to explain self-defense, "kara-TE," and "unagi" to Rachel and Phoebe, confidently asserting, "Only through genuine unagi can you anticipate any potential danger." However, they soon turn the tables on him, offering a lesson in humility and giving Ross a taste of his own medicine.</p>
+        <img src="Images/unagi.jpg" alt="Ross Explaining Unagi">
+        <h2>The One with All the Cheesecakes</h2>
+        <p>A mistaken cheesecake delivery sends Chandler and Rachel tumbling down a path of dessert theft, culminating in them indulging in remnants from a dish found on the hallway floor. Meanwhile, the episode warmly welcomes back Phoebe's former flame, scientist David, in one of the series' most charming guest appearances.</p>
+      </article>
+      <aside class="container__aside">
+        <h2>Other Popular Episodes</h2>
+          <ul>
+            <li>The One With the Prom Video</li>
+            <li>The One Where No One Is Ready</li>
+            <li>The One With the Routine</li>
+            <li>The One Where Ross Is Fine</li>
+            <li>The One With the Blackout</li>
+            <li>The One In Vegas</li>
+          </ul>
+        <h3>Best Seasons Ranked</h3>
+        <p>Here are the best seasons of Friends ranked, in order of best to worst.</p>
+        <ol>
+          <li>Season 2</li>
+          <li>Season 5</li>
+          <li>Season 1</li>
+          <li>Season 6</li>
+          <li>Season 8</li>
+          <li>Season 7</li>
+          <li>Season 3</li>
+          <li>Season 10</li>
+        </ol>
+        <img src="Images/friendscastframe.jpg" alt="Friends Cast">
+      </aside>
+    </section>  
+  </main>
+  <footer>
+    &copy; company name <span id="year"></span>
+  </footer>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear()
+  </script>
+</body>
+</html>
